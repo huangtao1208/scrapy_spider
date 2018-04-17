@@ -28,7 +28,6 @@ class DoubanBookListItem(scrapy.Item):
     publish_time = scrapy.Field()
 
 
-
 # 简书的全站用户信息
 class JianshuUserItem(scrapy.Item):
     # 用户名称
@@ -43,3 +42,21 @@ class JianshuUserItem(scrapy.Item):
     wordCount = scrapy.Field()
     # 收获喜欢数
     likeNumber = scrapy.Field()
+
+
+# 微博某人发布的微博信息
+class WeiboWBItem(scrapy.Item):
+    # 是否原创
+    isOriginal = scrapy.Field()
+    # 是否有视频
+    isHaveVideo = scrapy.Field()
+    # 是否有图片
+    isHavePicture = scrapy.Field()
+    # 图片的链接
+    pictureUrls = scrapy.Field()
+    # 标题即内容
+    title = scrapy.Field()
+    # 链接
+    url = scrapy.Field()
+    # 发布时间
+    publishTime = scrapy.Field()
