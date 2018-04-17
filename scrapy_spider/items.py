@@ -60,3 +60,15 @@ class WeiboWBItem(scrapy.Item):
     url = scrapy.Field()
     # 发布时间
     publishTime = scrapy.Field()
+
+
+# 简书用户发布的文章
+class JianShuUserArticleItem(scrapy.Item):
+    # 标题
+    title = scrapy.Field()
+    # 链接
+    url = scrapy.Field()
+    # 图片的链接
+    pictureUrls = scrapy.Field()
+    # 发布时间
+    publishTime = scrapy.Field()
