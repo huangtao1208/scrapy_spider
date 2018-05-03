@@ -25,7 +25,7 @@ class WeiBoWBSpider(scrapy.Spider):
 
     def __init__(self, *args, **kwargs):
         super(WeiBoWBSpider, self).__init__(*args, **kwargs)
-        self.start_urls = ['https://m.weibo.cn/p/1005051964425927','https://m.weibo.cn/u/2189067512']
+        self.start_urls = ['https://m.weibo.cn/u/2839635900']
 
     # 把网页URL转化为接口URL
     def start_requests(self):
@@ -116,7 +116,7 @@ class WeiBoWBSpider(scrapy.Spider):
                 weibo_wb_item['isHaveVideo'] = is_have_video
                 weibo_wb_item['isHavePicture'] = 1 if pics else 0
                 weibo_wb_item['pictureUrls'] = pics
-                weibo_wb_item['title'] = title
+                weibo_wb_item['title'] = clearHtml(title)
                 weibo_wb_item['url'] = "https://m.weibo.cn/status/%s" % info["mblog"]["mid"]
                 weibo_wb_item['publishTime'] = info_time
 
@@ -128,5 +128,5 @@ class WeiBoWBSpider(scrapy.Spider):
                 print weibo_wb_item['title']
                 print weibo_wb_item['url']
                 print weibo_wb_item['publishTime']
-                # yield weibo_wb_item
+                yield weibo_wb_item
 

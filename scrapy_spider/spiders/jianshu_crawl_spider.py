@@ -18,7 +18,7 @@ from scrapy_spider.items import JianshuUserItem
 
 class JianshuCrawlSpider(CrawlSpider):
     name = "jianshu_crawl_spider"
-    # 可选，加上会有一个爬去的范围
+    # 可选，加上会有一个爬取的范围
     allowed_domains = ["jianshu.com"]
 
     start_urls = ['https://www.jianshu.com/']
