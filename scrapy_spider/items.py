@@ -72,3 +72,13 @@ class JianShuUserArticleItem(scrapy.Item):
     pictureUrls = scrapy.Field()
     # 发布时间
     publishTime = scrapy.Field()
+
+
+# 知乎问答
+class ZhihuAnswersItem(scrapy.Item):
+    # 标题
+    title = scrapy.Field()
+    # 链接
+    url = scrapy.Field()
+    # 发布时间
+    publishTime = scrapy.Field()

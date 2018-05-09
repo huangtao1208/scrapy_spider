@@ -9,8 +9,24 @@ Scrapy-Spider
 爬虫增加时间线
 ------------
 
+2018.5.9
+知乎问答：zhihu_answers_spider.py
+
+2018.5.3
+把微博的信息保存到MySQL数据库
+
 2018.4.17
 微博用户发布信息：weibo_wb_spider.py，简书用户发布的文章：jianshu_user_article_spider.py
 
 2018.4.16
 豆瓣读书：douban_book_spider.py，简书全站：jianshu_crawl_spider.py
+
+
+赞助
+------------
+如果您觉得该项目对您有帮助，请扫描下方二维码对我进行鼓励，以便我更好的维护和更新，谢谢支持！
+
+![支付宝](https://github.com/huangtao1208/scrapy_spider/master/img/zhifubao.jpeg)
+
+![微信](https://github.com/huangtao1208/scrapy_spider/master/img/weixin.jpeg)
+
