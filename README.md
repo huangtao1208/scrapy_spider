@@ -26,7 +26,8 @@ Scrapy-Spider
 ------------
 如果您觉得该项目对您有帮助，请扫描下方二维码对我进行鼓励，以便我更好的维护和更新，谢谢支持！
 
-![支付宝](https://raw.githubusercontent.com/huangtao1208/scrapy_spider/c9d6fd902b44125500ebc07fa4d9c9e777a7c08f/img/zhifubao.jpeg)
+![支付宝](https://raw.githubusercontent.com/huangtao1208/scrapy_spider/3927f387f924763996b70d6bc8e2a26f29461fa6/img/zhifubao.jpeg)
 
-![微信](https://raw.githubusercontent.com/huangtao1208/scrapy_spider/c9d6fd902b44125500ebc07fa4d9c9e777a7c08f/img/weixin.jpeg)
+![微信](https://raw.githubusercontent.com/huangtao1208/scrapy_spider/3927f387f924763996b70d6bc8e2a26f29461fa6/img/weixin.jpeg)
+
 
