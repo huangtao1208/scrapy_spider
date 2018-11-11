@@ -3,7 +3,6 @@
 
 # **********************************************************
 # * Author        : huangtao
-# * Email         : huangtao@yimian.me
 # * Create time   : 2018/4/16 下午10:10
 # * Last modified : 2018/4/16 下午10:10
 # * Filename      : jianshu_crawl_spider.py

@@ -3,7 +3,6 @@
 
 # **********************************************************
 # * Author        : huangtao
-# * Email         : huangtao@yimian.me
 # * Create time   : 2018/4/16 下午10:05
 # * Last modified : 2018/4/16 下午10:05
 # * Filename      : douban_book_spider.py.py

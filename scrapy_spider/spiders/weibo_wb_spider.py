@@ -3,7 +3,6 @@
 
 # **********************************************************
 # * Author        : huangtao
-# * Email         : huangtao@yimian.me
 # * Create time   : 2018/4/17 下午1:22
 # * Last modified : 2018/4/17 下午1:22
 # * Filename      : weibo_wb_spider.py

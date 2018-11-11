@@ -3,7 +3,6 @@
 
 # **********************************************************
 # * Author        : huangtao
-# * Email         : huangtao@yimian.me
 # * Create time   : 2018/5/9 下午8:02
 # * Last modified : 2018/5/9 下午8:02
 # * Filename      : zhihu_answers_spider.py
